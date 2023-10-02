@@ -1,36 +1,42 @@
-# Introduction to SQL and MySQL.
+# Introducing Set Operations (Union, Union ALL, In and Not IN, Difference,Union vs Join, Join vs subqueries)
 
-What is the major difference between MySQL and SQL? 
+What are the major differences between the UNION operation and the JOIN operation?
 
-What are the default databases created in MySQL (mysql, information_schema,performance_schema,sys) and usage of all?
+What is the major difference between the UNION and the UNION ALL?
 
-What is a database?
+What is the maximum number of rows that can result from a UNION of two tablesone with 5 rows and the other with 6 rows?
 
-What is a query?
+What is the maximum number of rows that can result from a JOIN of two tablesone with 5 rows and the other with 6 rows?
 
-Where a SQL query is typed in?
+How can a UNION be used to implement an outer join? Explain.
 
-How to connect with database using tool?
+Do you need the same number of columns to perform a union?
 
-How to execute the queries?
+Do you need the same data types to perform a union?
 
-How to create\delete and rename a database?
+Do you need the same number of columns to perform a join?What is the maximum number of rows that can result from a INTERSECT of two tablesone with rows and the other with 6 rows?
 
-What is the purpose of the USE command?
+Do you need the same number of columns to perform an INTERSECT operation?
 
-If you delete a table in the database, will the data in the table be deleted too?
-
-What is the Parse Query button used for? How does this help you?
-
+Do you need the same data types to perform an INTERSECT operation?
 
 # Practice
 
-Create a database named "student_course" using command.
+Create two tables, Table_1(A, B) and Table_2(A, B,C,D).
 
-Create the following classes in Student, Department and Course tables.
+Try the following statements and note the results:
 
-Define various columns in tables.
-
-Write a SQL query to view all the columns and rows in the Student table,Department and Course tables.
-
+    SELECT * FROM Table1 UNION SELECT * FROM Table2
+    SELECT * FROM Table1 UNION SELECT A,B FROM Table2
+    SELECT * FROM Table1 UNION SELECT B,A FROM Table1
+    SELECT * FROM Table1 UNION SELECT A,C FROM Table2
+    SELECT * FROM Table1 UNION SELECT A,D FROM Table2
+    CREATE VIEW viewx AS
+    SELECT A,B
+    FROM Table2
+    SELECT *
+    FROM Table1
+      UNION
+    SELECT *
+    FROM viewx
 

@@ -1,4 +1,8 @@
-# Introduction to SQL and MySQL.
+# DDL and DML commands.
+
+What is the expansion of DDL and DML?
+
+What are DDL and DML commands?
 
 What are the Data Types provided by MySQL by default?
 
