@@ -38,5 +38,5 @@ Try the following statements and note the results:
     FROM Table1
       UNION
     SELECT *
-    FROM viewx
+    FROM view
 

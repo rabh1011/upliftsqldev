@@ -1,36 +1,26 @@
-# Introduction to SQL and MySQL.
+# Introduction to Normalization.
 
-What is the major difference between MySQL and SQL? 
+What is Normalization?
 
-What are the default databases created in MySQL (mysql, information_schema,performance_schema,sys) and usage of all?
+Why do we need Normalization?
 
-What is a database?
+What are the advantages of Normalization?
 
-What is a query?
+What are the disadvantages of Normalization?
 
-Where a SQL query is typed in?
+How many types of normal forms exists?
 
-How to connect with database using tool?
+What is 1NF?
 
-How to execute the queries?
+What is 2NF?
 
-How to create\delete and rename a database?
+What is 3NF?
 
-What is the purpose of the USE command?
-
-If you delete a table in the database, will the data in the table be deleted too?
-
-What is the Parse Query button used for? How does this help you?
-
+What is BCNF ( Boyce Codd's normal form)?
 
 # Practice
 
-Create a database named "student_course" using command.
+Create a table Employee (EMP_ID,EMP_Name,EMP_Phone,EMP_State).
 
-Create the following classes in Student, Department and Course tables.
-
-Define various columns in tables.
-
-Write a SQL query to view all the columns and rows in the Student table,Department and Course tables.
-
+If Employee has two numbers, will the table be in 1NF? If no how to convert into 1NF.
 

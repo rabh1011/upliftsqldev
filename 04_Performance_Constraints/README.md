@@ -1,36 +1,69 @@
-# Introduction to SQL and MySQL.
+# Introduction to Indexes and Constraints on Tables
 
-What is the major difference between MySQL and SQL? 
+What is an index?
 
-What are the default databases created in MySQL (mysql, information_schema,performance_schema,sys) and usage of all?
+Does an index slow down updates on indexed columns?
 
-What is a database?
+What is a constraint?
 
-What is a query?
+How many indexes does MySQL Server  allow you to have on a table?
 
-Where a SQL query is typed in?
+What command would you use to create an index?
 
-How to connect with database using tool?
+Is there a difference between an index and a constraint?
 
-How to execute the queries?
+What is the default ordering that will be created by an index (ascending or descending)?
 
-How to create\delete and rename a database?
+When can the UNIQUE option be used?
 
-What is the purpose of the USE command?
+What does the IGNORE NULL option do?
 
-If you delete a table in the database, will the data in the table be deleted too?
+How do you delete an index?
 
-What is the Parse Query button used for? How does this help you?
+What does the NOT NULL constraint do?
+
+What command must you use to include the NOT NULL constraint after a table has already been created?
+
+When a PRIMARY KEY constraint is included in a table, what other constraints does this imply?
+
+What is a concatenated primary key?
+
+How are the UNIQUE and PRIMARY KEY constraints different?
+
+What is a referential integrity constraint? What two keys does the referential integrity constraint usually include?
+
+What is a foreign key?
 
 
 # Practice
 
-Create a database named "student_course" using command.
+To test choices of data types, create a table with various data types like this:
 
-Create the following classes in Student, Department and Course tables.
+CREATE TABLE Test3
+  (name                VARCHAR(20),
+   ssn                 CHAR(9),
+   dept_number         INTEGER,
+   acct_balance        SMALLMONEY)
 
-Define various columns in tables.
 
-Write a SQL query to view all the columns and rows in the Student table,Department and Course tables.
 
+Then insert values into the table to see what will and will not be accepted. The following data may or may not be acceptable. You are welcome to try other choices.
+
+'xx','yy',2,5
+'xx','yyy',2000000000,5
+'xx','yyyy',2,1234567.89
+
+
+
+Create an index of ssn in ascending order of ssn. Try to insert some new data in the ssn column. Does your ssn column take nulls?
+
+Does your ssn column take duplicates? If so, how can you prevent this column from taking duplicates?
+
+Include a NOT NULL constraint on the ssn column. Now try to insert some new data in the ssn column with nulls in the ssn column. What happens?
+
+With this NOT NULL constraint, is it necessary to include the PRIMARY KEY constraint? Why or why not? Now include the PRIMARY KEY constraint and seewhether there is any difference in the types of values it accepts.
+
+Include some data with null values in the dept_number and acct_balance columns. Now include the NOT NULL constraint in the acct_balance column. What happens?
+
+Include the NOT NULL constraint in the acct_balance column. What happens?
 

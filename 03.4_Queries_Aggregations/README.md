@@ -1,36 +1,44 @@
-# Introduction to SQL and MySQL.
+# Introduction to Group By and Aggregation.
 
-What is the major difference between MySQL and SQL? 
+What do aggregate functions do?
 
-What are the default databases created in MySQL (mysql, information_schema,performance_schema,sys) and usage of all?
+How does the GROUP BY clause work?
 
-What is a database?
+What is the difference between a GROUP BY and ORDER BY?
 
-What is a query?
+What is the HAVING clause used for?
 
-Where a SQL query is typed in?
+Can the WHERE clause always be considered a substitute for the HAVING clause? Why or why not?
 
-How to connect with database using tool?
+Will nulls in grouped columns be included in a result set?
 
-How to execute the queries?
+How do aggregate functions treat nulls?
 
-How to create\delete and rename a database?
+Does the sequence of the columns in a GROUP BY clause have an effect on the end result?
 
-What is the purpose of the USE command?
+When would it not make sense to use the GROUP BY and DISTINCT functions together?
 
-If you delete a table in the database, will the data in the table be deleted too?
+Is GROUP BY affected by nulls?
 
-What is the Parse Query button used for? How does this help you?
+Which comes first in a SELECT statement, an ORDER BY or GROUP BY? Why?
+
+The GROUP BY and ________________ clauses are used together.
 
 
 # Practice
 
-Create a database named "student_course" using command.
+Create a table called Employees with a name, a salary and job title. Include exactly six rows. Make the salary null in one row, the job title null 
+in another, and both the salary and the job title in another. 
 
-Create the following classes in Student, Department and Course tables.
+a___Display the table.
 
-Define various columns in tables.
+b___Display count, sum, maximum, minimum, and average salary.
 
-Write a SQL query to view all the columns and rows in the Student table,Department and Course tables.
+c___Display count, sum, maximum, minimum, and average salary, counting salary as 0 if no salary is listed.
 
+d___Display the average salary grouped by job title on the table as is.
+
+e___Display the average salary grouped by job title when null salary is counted as 0.
+
+f___Display the average salary grouped by job title when salary is counted as 0 if it is null and include a value for "no job title."
 
