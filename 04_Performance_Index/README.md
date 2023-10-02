@@ -1,36 +1,39 @@
-# Introduction to SQL and MySQL.
+# Introduction to Index.
 
-What is the major difference between MySQL and SQL? 
+What is an index?
 
-What are the default databases created in MySQL (mysql, information_schema,performance_schema,sys) and usage of all?
+Does an index slow down updates on indexed columns?
 
-What is a database?
+How many indexes does MySQL Server  allow you to have on a table?
 
-What is a query?
+What command would you use to create an index?
 
-Where a SQL query is typed in?
+Is there a difference between an index and a constraint?
 
-How to connect with database using tool?
+What is the default ordering that will be created by an index (ascending or descending)?
 
-How to execute the queries?
-
-How to create\delete and rename a database?
-
-What is the purpose of the USE command?
-
-If you delete a table in the database, will the data in the table be deleted too?
-
-What is the Parse Query button used for? How does this help you?
+How do you delete an index?
 
 
 # Practice
 
-Create a database named "student_course" using command.
+To test choices of data types, create a table with various data types like this:
 
-Create the following classes in Student, Department and Course tables.
+CREATE TABLE Test3
+  (name                VARCHAR(20),
+   ssn                 CHAR(9),
+   dept_number         INTEGER,
+   acct_balance        SMALLMONEY)
 
-Define various columns in tables.
 
-Write a SQL query to view all the columns and rows in the Student table,Department and Course tables.
 
+Then insert values into the table to see what will and will not be accepted. The following data may or may not be acceptable. You are welcome to try other choices.
+
+'xx','yy',2,5
+'xx','yyy',2000000000,5
+'xx','yyyy',2,1234567.89
+
+
+
+Create an index of ssn in ascending order of ssn. Try to insert some new data in the ssn column. Does your ssn column take nulls?
 
