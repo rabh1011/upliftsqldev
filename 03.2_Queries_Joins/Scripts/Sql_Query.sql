@@ -109,8 +109,8 @@ SELECT e.empfname,e.emplname,d.deptname FROM employee e INNER JOIN( dept d INNER
 emp_dept_mapping ed ON ed.deptid =d.deptid ) ON e.empid=ed.empid
 
 --CROSS JOIN
-SELECT * FROM employee,dept ORDER BY empid
-SELECT * FROM employee CROSS JOIN dept
+SELECT * FROM employee,dept   ORDER BY empid
+SELECT * FROM employee CROSS JOIN dept 
 
 --INNER JOIN 
 SELECT e.empfname, ed.deptid FROM employee e INNER JOIN emp_dept_mapping ed

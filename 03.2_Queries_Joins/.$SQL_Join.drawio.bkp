@@ -1,0 +1,87 @@
+<mxfile host="Electron" modified="2023-10-06T04:18:38.428Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.6.1 Chrome/112.0.5615.204 Electron/24.6.1 Safari/537.36" etag="HC7q-yTG4E3LPavq_Ncb" version="21.6.1" type="device">
+  <diagram name="Page-1" id="_zmjhXUky9e1qDdzxzMC">
+    <mxGraphModel dx="1870" dy="496" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="-0nshhNMzgBO31CcUali-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;fontFamily=Verdana;fontSize=11;" edge="1" parent="1" source="-0nshhNMzgBO31CcUali-1" target="-0nshhNMzgBO31CcUali-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-0nshhNMzgBO31CcUali-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;fontFamily=Verdana;fontSize=11;" edge="1" parent="1" source="-0nshhNMzgBO31CcUali-1" target="-0nshhNMzgBO31CcUali-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-0nshhNMzgBO31CcUali-1" value="Join" style="rounded=1;hachureGap=4;fontFamily=Verdana;fontSize=11;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="360" y="230" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-0nshhNMzgBO31CcUali-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;fontFamily=Verdana;fontSize=11;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="-0nshhNMzgBO31CcUali-2" target="-0nshhNMzgBO31CcUali-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="210" y="410" />
+              <mxPoint x="80" y="410" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-0nshhNMzgBO31CcUali-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;fontFamily=Verdana;fontSize=11;" edge="1" parent="1" source="-0nshhNMzgBO31CcUali-2" target="-0nshhNMzgBO31CcUali-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-0nshhNMzgBO31CcUali-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;fontFamily=Verdana;fontSize=11;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="-0nshhNMzgBO31CcUali-2" target="-0nshhNMzgBO31CcUali-10">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="210" y="410" />
+              <mxPoint x="10" y="410" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-0nshhNMzgBO31CcUali-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;fontFamily=Verdana;fontSize=11;" edge="1" parent="1" source="-0nshhNMzgBO31CcUali-2" target="-0nshhNMzgBO31CcUali-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-0nshhNMzgBO31CcUali-2" value="Inner Join" style="rounded=1;hachureGap=4;fontFamily=Verdana;fontSize=11;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="150" y="320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-0nshhNMzgBO31CcUali-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;fontFamily=Verdana;fontSize=11;" edge="1" parent="1" source="-0nshhNMzgBO31CcUali-4" target="-0nshhNMzgBO31CcUali-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-0nshhNMzgBO31CcUali-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;fontFamily=Verdana;fontSize=11;" edge="1" parent="1" source="-0nshhNMzgBO31CcUali-4" target="-0nshhNMzgBO31CcUali-14">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="620" y="420" />
+              <mxPoint x="770" y="420" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-0nshhNMzgBO31CcUali-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;fontFamily=Verdana;fontSize=11;" edge="1" parent="1" source="-0nshhNMzgBO31CcUali-4" target="-0nshhNMzgBO31CcUali-16">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="620" y="420" />
+              <mxPoint x="470" y="420" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-0nshhNMzgBO31CcUali-4" value="Outer Join" style="rounded=1;hachureGap=4;fontFamily=Verdana;fontSize=11;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="560" y="320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-0nshhNMzgBO31CcUali-6" value="Equi Join" style="rounded=1;hachureGap=4;fontFamily=Verdana;fontSize=11;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="20" y="560" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-0nshhNMzgBO31CcUali-8" value="Non-Equi Join" style="rounded=1;hachureGap=4;fontFamily=Verdana;fontSize=11;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="240" y="440" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-0nshhNMzgBO31CcUali-10" value="Cross Join/Cartesian Product" style="rounded=1;hachureGap=4;fontFamily=Verdana;fontSize=11;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="-50" y="440" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-0nshhNMzgBO31CcUali-12" value="Left Outer Join" style="rounded=1;hachureGap=4;fontFamily=Verdana;fontSize=11;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="560" y="460" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-0nshhNMzgBO31CcUali-14" value="Right Outer Join" style="rounded=1;hachureGap=4;fontFamily=Verdana;fontSize=11;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="710" y="460" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-0nshhNMzgBO31CcUali-16" value="Full Outer Join" style="rounded=1;hachureGap=4;fontFamily=Verdana;fontSize=11;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="410" y="460" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-0nshhNMzgBO31CcUali-18" value="Self  Join" style="rounded=1;hachureGap=4;fontFamily=Verdana;fontSize=11;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="150" y="560" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

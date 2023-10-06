@@ -1,16 +1,30 @@
 # Joins .
 
-What is a join? Why do you need a join?
+###What is a join? Why do you need a join?
 
-What is an INNER JOIN?
+###What is an INNER JOIN?
 
-Which clause[s] can be used in place of the JOIN in Server SQL?
+Inner join, where the two tables being joined must share at least one common column. The columns of the two tables being joined by the JOIN command are matched using an ON clause. SQL Server will actually translate the example JOIN statement to an unambiguous INNER JOIN form.
 
-What is the Cartesian product?
+When inner-joining two tables, the JOIN returns rows from both tables only if there is a corresponding value in both tables as described by the ON clause column.
 
-What would be the Cartesian product of a table with 15 rows and another table with 23 rows?
 
-List some uses of the Cartesian product.
+###Which clause[s] can be used in place of the JOIN in Server SQL?
+ON
+
+###What is the Cartesian product?
+In a SQL statement, a Cartesian product is where every row of the first table in the FROM clause is joined with each and every row of the second table in the FROM clause. A Cartesian product is produced when the WHERE form of the JOIN is used without the WHERE.
+
+SELECT * FROM table1, table2
+
+
+###What would be the Cartesian product of a table with 15 rows and another table with 23 rows?
+Which will have n*m rows (where n is the number of rows from the first relation, and m is the number of rows from the second relation).
+
+###List some uses of the Cartesian product.
+The simplest Cartesian product of two sets is a two-dimensional table or a cross-tabulation whose cells may be used to enter frequencies or to designate possibilities.
+
+The Cartesian product is needed if we want a collection of all ordered n-tuples (rows with n columns) that can be formed so that they contain one element of the first set, one element of the second set and one element of the nth set.
 
 What is an equi-join?
 
